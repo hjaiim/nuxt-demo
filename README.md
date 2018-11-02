@@ -47,9 +47,8 @@ node>=8.3.0
 
 ###      2.路由
 
-```
 a.在pages目录下,新建.vue文件,nuxt.js会自动生成路由配置(详见.nuxt文件中router.js).
 b.在该目录下,再新建文件夹,如果新建的文件以index.vue命名,等同于步骤a.
 c.如果文件另命名,就默认为该目录下的二级路由(子路由).
 d.跳转路由,官方推荐<nuxt-link to="/account">账号</nuxt-link>.[官方](https://zh.nuxtjs.org/api/components-nuxt-link).
-```
+
